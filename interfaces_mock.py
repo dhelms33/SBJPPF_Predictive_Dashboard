@@ -12,6 +12,10 @@ class SocialMediaParser(ABC):
         pass
     
     class PredicitveModel(ABC):
-        """ """
-        def train_data(self):
+        """ Abstract Base Class for plug and play ML models (strategy pattern)"""
+        @abstractmethod
+        def train_data(self, features: list, labels: list) -> None:
+            pass
+        @abstractmethod
+        def predict_data(self, input_data: list) -> float:
             pass
