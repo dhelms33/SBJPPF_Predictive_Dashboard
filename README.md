@@ -1,3 +1,11 @@
+### 🎯 Project Mission 
+The aim of this project is to identify gaps in the current social media posting cycle via data analysis. Moreover, we strive to optimize post times in addition to what posts generate the most engagement.
+
+We aim to:
+1. Identify the optimal types of posts for the foundation's audience. 
+2. Highlight account for the lack of posts and account for this in the model
+3. Generate many LLMs that provide the posts that produce the highest engagement and when we should post this (time of year in addition to day and time).
+
 ### 📊 Project Overview
 This project provides a predictive analytics suite for The Shannon B. Jones Passion Pursuit Foundation. By leveraging historical social media metadata from Facebook and Instagram, the system utilizes a Linear Regression model (and eventually a PyTorch Neural Network) to analyze and predict post engagement.
 
